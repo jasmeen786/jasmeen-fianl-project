@@ -1,0 +1,51 @@
+
+h1 {
+    text-align : center;
+}
+
+  img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  .inner-top {
+    
+    float:center;
+    margin-left:40px;
+    margin-bottom:40px;
+    
+  }
+  #clear {
+  
+    clear:right;
+  }
+  
+
+header {
+    text-align: center;
+}
+h1{
+    color:black;
+    font-size: 70px;
+}
+
+ h2, h3 {
+    color: #333;
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px; /* Center headings */
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.summary, .experience, .education, .skills {
+    margin-bottom: 30px;
+    text-align: center; /* Center sections */
+}
+body {
+    background-image: url("bckgrnd.webp");
+  }

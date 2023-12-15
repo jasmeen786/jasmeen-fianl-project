@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesh.css">
+    <title>My Hobbies</title>
+</head>
+<body>
+    <div class="hobbies-container">
+        <h1>My Interests</h1>
+        <div class="hobby">
+            <img src="grdn.jpg" alt="Gardening">
+            <button onclick="toggleDescription('gardening')">Click me</button>
+            <p id="gardening-description" class="hidden"> 
+                "As a gardening enthusiast, my thoughts often center around the sheer beauty of 
+                blooming flowers, the satisfying journey of watching seeds flourish into thriving
+                 plants, and the therapeutic connection with nature that comes from digging in the soil. 
+                 I find joy in the cyclical dance of seasons, and my mind is always buzzing with plans for
+                  future plantings, the excitement of discovering new varieties, and the sense of accomplishment 
+                  when my garden flourishes. For me, gardening isn't just a hobby;
+                 it's a mindful and grounding experience that brings life and vibrancy to my surroundings."
+            </p>
+        </div>
+        <div class="hobby">
+            <img src="samber.jpeg" alt="Cat Enthusiast">
+            <button onclick="toggleDescription('cat')">Click me</button>
+            <p id="cat-description" class="hidden"> 
+                As a devoted cat enthusiast, my thoughts frequently orbit
+                 around the enchanting world of feline companionship. The delight derived 
+                 from playing, interacting, and sharing moments with my cats is a source of pure joy.
+                  Each feline quirk and whisker twitch becomes a cherished detail in the tapestry of my daily life. 
+                  I find fulfillment in understanding their behaviors, exploring the vast array of cat toys, and creating 
+                  a harmonious space for my furry friends. The gentle purrs, playful antics, and the unique bond forged 
+                  with my cats transcend the realm of a mere hobby;
+                 it's an immersive and heartwarming connection that adds a special and comforting dimension to my world.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function toggleDescription(hobby) {
+            const description = document.getElementById(`${hobby}-description`);
+            description.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
